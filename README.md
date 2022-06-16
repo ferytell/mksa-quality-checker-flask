@@ -26,6 +26,47 @@ Mk:SA checker is quality checker for MKSA
 
 ## screenshoot Front End
 
+How to replicate
+
+first you must crate databe, in our case we use sqlite3
+the database named `bangkit` with articles table, articles table have 5 column:
+
+|    text    | summary |  date  |   score  |
+| ---------- | ------- |  ----  | -------- |
+| ---------- | ------- |  ----  | -------- |
+
+```sh 
+CREATE TABLE scores (
+	text TEXT NOT NULL,
+	summary TEXT NOT NULL,
+	date d1 INT,
+	score TEXT NOT NULL UNIQUE
+);
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Linked In -->
 [LinkedIn - Adrian]: null
 [LinkedIn - Dava]: https://www.linkedin.com/in/dvjhr
